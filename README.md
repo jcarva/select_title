@@ -1,3 +1,10 @@
+**Have a question or suggestion?**
+Contact me on [Linkedin](https://www.linkedin.com/in/jaelson-carvalho-4b84a3a2), send an email to jaelsoncarvalhojr@gmail.com, or create a pull request on this project.
+
+---
+
+**Pet-project. Use at your own risk. Low test coverage ratio.**
+
 # List Titles
 
 A simple project to fecthData from a api and show the informations.
@@ -8,7 +15,8 @@ A simple project to fecthData from a api and show the informations.
 
 - [Stack](#stack)
 - [Design Goals](#design-goals)
-- [Avaialable Pages](#available-pages)(TO DO)
+- [API](#api)
+- [Avaialable Pages](#available-pages)
 - [Getting Started](#getting-started)
 - [Local Commands](#local-commands)
     - [Build](#build)
