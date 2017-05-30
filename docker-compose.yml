@@ -1,0 +1,17 @@
+version: '2'
+services:
+  production:
+    build:
+      context: '.'
+    environment:
+      - "HOSTNAME=0.0.0.0"
+      - "PORT=8080"
+      - "NODE_ENV=production"
+    volumes:
+      - '.:/app/production_volume'
+    working_dir: /app
+    command: "yarn run start"
+    ports:
+      - '8079:8080'
+      - '8080:8080'
+      - '8081:8080'
