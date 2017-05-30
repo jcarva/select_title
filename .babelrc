@@ -1,0 +1,8 @@
+//(https://babeljs.io/docs/plugins/preset-react/)
+{
+  "presets": ["react", "es2015", "stage-0"],
+  "plugins": [
+    "react-hot-loader/babel",
+    ["import", { "libraryName": "antd", "style": "css" }]
+  ]
+}
