@@ -5,6 +5,8 @@ import {fetchData} from '../../utils/redux/home'
 import { Layout, Row, Col } from 'antd';
 const { Content } = Layout;
 
+import List from '../../components/List'
+
 // Require Home style
 require('./style.sass');
 
@@ -37,7 +39,8 @@ class Home extends Component {
           <Content>
             <Row>
               <Col span={12} offset={6}>
-                <h1>Home Page</h1>
+                <h1>List</h1>
+                <List rows={this.props.rows}/>
               </Col>
             </Row>
           </Content>

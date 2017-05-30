@@ -4669,6 +4669,10 @@ rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-data-grid@^2.0.46:
+  version "2.0.46"
+  resolved "https://registry.yarnpkg.com/react-data-grid/-/react-data-grid-2.0.46.tgz#9262ea9a97a88898d64797867db74fc5708adab8"
+
 react-deep-force-update@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-2.0.1.tgz#4f7f6c12c3e7de42f345992a3c518236fa1ecad3"
