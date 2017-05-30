@@ -1,0 +1,24 @@
+{
+  "name": "list_titles",
+  "version": "1.0.0",
+  "description": "A simple project to fecthData from a server and show the informations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcarva/list_titles.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "list"
+  ],
+  "author": "Jaelson Carvalho <jaelsoncarvalhojr@gmail.com> (https://github.com/jcarva)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jcarva/list_titles/issues"
+  },
+  "homepage": "https://github.com/jcarva/list_titles#readme"
+}
