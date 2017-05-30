@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router} from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { configureStore } from './store';
 
 // Require global style
 require('./assets/style/base.sass');
@@ -11,9 +13,11 @@ import PagesWrapper from './pages/PagesWrapper'
 import Pages from './pages';
 
 export default () => (
-  <Router>
-    <PagesWrapper>
-      <Pages/>
-    </PagesWrapper>
-  </Router>
+  <Provider store={configureStore()}>
+    <Router>
+      <PagesWrapper>
+        <Pages/>
+      </PagesWrapper>
+    </Router>
+  </Provider>
 );

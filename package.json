@@ -26,6 +26,7 @@
   "homepage": "https://github.com/jcarva/list_titles#readme",
   "dependencies": {
     "antd": "^2.10.0",
+    "axios": "^0.16.1",
     "babel-eslint": "^7.2.1",
     "eslint": "^3.19.0",
     "eslint-plugin-react": "^6.10.3",
@@ -33,7 +34,9 @@
     "path": "^0.12.7",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-router-dom": "^4.0.0"
+    "react-router-dom": "^4.0.0",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
