@@ -7,6 +7,10 @@ Contact me on [Linkedin](https://www.linkedin.com/in/jaelson-carvalho-4b84a3a2),
 
 # Select Title
 
+[![Code Climate](https://codeclimate.com/github/jcarva/select_title/badges/gpa.svg)](https://codeclimate.com/github/jcarva/select_title)
+[![Test Coverage](https://codeclimate.com/github/jcarva/select_title/badges/coverage.svg)](https://codeclimate.com/github/jcarva/select_title/coverage)
+[![Issue Count](https://codeclimate.com/github/jcarva/select_title/badges/issue_count.svg)](https://codeclimate.com/github/jcarva/select_title)
+
 A simple project to fecthData from a api and show the informations as a sortable and filterable list.
 
 ---
@@ -68,6 +72,8 @@ This application consumes data from the following services:
 |    Page    |    URL        |                          Description                        |
 |:----------:|:-------------:|:-----------------------------------------------------------:|
 |    Home    |     /         |  Main page of application to show the fetched data          |
+|   About    |     /about    |  Page that contains a little description of the project     |
+|  No Match  |     /*        |  Any other URL's that don't macth with the app router       |
 
 ---
 
