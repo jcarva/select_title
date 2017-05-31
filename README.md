@@ -5,9 +5,9 @@ Contact me on [Linkedin](https://www.linkedin.com/in/jaelson-carvalho-4b84a3a2),
 
 **Pet-project. Use at your own risk. Low test coverage ratio.**
 
-# List Titles
+# Select Title
 
-A simple project to fecthData from a api and show the informations.
+A simple project to fecthData from a api and show the informations as a sortable and filterable list.
 
 ---
 

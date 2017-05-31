@@ -1,7 +1,7 @@
 {
   "name": "list_titles",
   "version": "1.0.0",
-  "description": "A simple project to fecthData from a server and show the informations.",
+  "description": "A simple project to fecthData from a api and show the informations as a sortable and filterable list.",
   "main": "index.js",
   "scripts": {
     "build": "NODE_ENV=production webpack -p --display-error-details --config ./webpack.config.js --progress",
