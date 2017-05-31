@@ -43,23 +43,7 @@ class List extends React.Component {
 
     return row;
   };
-
-  // Get a array of objects and and a key.
-  // Return a array with all values of the passed key
-  getKeys = (columns, key) =>  columns.map((object) =>  object[key]);
-
-  // Get the columns and entire data build a array of objects.
-  createRows = (columns, data) => {
-    const keys = this.getKeys(columns, 'key');
-
-    let rows = [];
-    for (let i = 0; i < data.length; i++) {
-      rows.push(this.createRow(keys, data[i]));
-    }
-
-    return rows;
-  };
-
+  
   // Return all rows
   getRows = () => Selectors.getRows(this.state);
 
