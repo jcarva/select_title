@@ -39,7 +39,6 @@ class Home extends Component {
           <Content>
             <Row>
               <Col span={12} offset={6}>
-                <h1>List</h1>
                 <List rows={this.props.rows}/>
               </Col>
             </Row>

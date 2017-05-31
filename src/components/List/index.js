@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDataGrid from 'react-data-grid';
-import Details from './Details'
 const { Toolbar, Data: { Selectors } } = require('react-data-grid-addons');
 
 //Require List style
@@ -102,6 +101,18 @@ class List extends React.Component {
     });
   };
 
+  renderDetails = (index) => {
+    if(index !== null) {
+      return(
+        <div id="details">
+          <h2>Details: {this.state.rows[this.state.selectedTitleIndex].body}</h2>
+        </div>
+      )
+    } else {
+      return <h1>Select a line to see the details.</h1>
+    }
+  };
+
   render() {
     //console.log(this.props)
     if(this.props.isFetching) {
@@ -123,7 +134,7 @@ class List extends React.Component {
             rowGetter={this.rowGetter}
             enableCellSelect={true}
             rowsCount={this.getSize()}
-            minMax={((this.state.rows.length + 1) * 25) + 3}
+            maxHeight={((this.state.rows.length + 1) * 25) + 3}
             toolbar={<Toolbar id="filter-button" enableFilter={true}/>}
             onAddFilter={this.handleFilterChange}
             onClearFilters={this.onClearFilters}
@@ -137,10 +148,10 @@ class List extends React.Component {
                }
             }}
           />
-          <Details id={this.state.selectedTitleIndex}/>
+          {this.renderDetails(this.state.selectedTitleIndex)}
         </div>
       );
     }
   }
 }
-export default List
+export default List;
