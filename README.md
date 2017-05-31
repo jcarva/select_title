@@ -107,22 +107,25 @@ $ yarn run build
 
 The above command is used to build the production files.
 
-**Input:** `src/main.js` and `src/index.html`
+**Input:** `src/index.js` and `src/index.html`
 
 **Output:** `build/`
 
 ### Development
 
 ```sh
-$ yarn run server
+$ yarn run dev
 ```
 
-Navigate to **http://localhost:5000/** to view the app.
+Navigate to **http://localhost:3000/** to view the app.
 
 ### Production
 
+
+Note: Before execute the below command you need to run the **build script**(*yarn run build*).
+
 ```sh
-$ NODE_ENV=production yarn run server
+$ yarn run start
 ```
 
 Navigate to **http://localhost:5000/** to view the app running with the production files.
@@ -135,6 +138,7 @@ $ yarn run eslint
 
 This above command is used to identifying and reporting on patterns in JavaScript on the entire project.
 
+---
 
 ## Docker Build and Run
 
