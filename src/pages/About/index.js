@@ -10,7 +10,7 @@ export default () => {
     <div id="about">
       <Content style={{ padding: '0 50px' }}>
         <Row>
-          <Col span={8} offset={8}>
+          <Col span={12} offset={6}>
             <Row type="flex" justify="center">
               <h1>
                 A simple project to fecthData from an api and show the informations as a sortable and filterable list.
