@@ -146,9 +146,9 @@ The bellow command creates a new Docker image production of our application. Bui
 $ docker-compose up
 ```
 
-The command reads the Dockerfile in the current directory and processes its instructions one by one to build an image called ```list_titles_production``` on your local machine.
+The command reads the Dockerfile in the current directory and processes its instructions one by one to build an image called ```select_title_production``` on your local machine.
 
-Using the above command we have by default the ```list_titles_production``` available image running a docker container on http://<YOUR_IP>:8079, http://<YOUR_IP>:8080, http://<YOUR_IP>:8081.
+Using the above command we have by default the ```select_title_production``` available image running a docker container on http://<YOUR_IP>:8079, http://<YOUR_IP>:8080, http://<YOUR_IP>:8081.
 
 **Why use it?**
 
@@ -227,6 +227,6 @@ Some parts of this project follow the style guide from [React Redux Universal Ho
 ## License
 
 This project is licensed under the terms of the **GNU GENERAL PUBLIC** license.
->You can check out the full license [here](https://github.com/jcarva/list_titles/blob/master/LICENSE)
+>You can check out the full license [here](https://github.com/jcarva/select_title/blob/master/LICENSE)
 
 ---

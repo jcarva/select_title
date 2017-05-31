@@ -1,5 +1,5 @@
 {
-  "name": "list_titles",
+  "name": "select_title",
   "version": "1.0.0",
   "description": "A simple project to fecthData from a api and show the informations as a sortable and filterable list.",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jcarva/list_titles.git"
+    "url": "git+https://github.com/jcarva/select_title.git"
   },
   "keywords": [
     "react",
@@ -21,9 +21,9 @@
   "author": "Jaelson Carvalho <jaelsoncarvalhojr@gmail.com> (https://github.com/jcarva)",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/jcarva/list_titles/issues"
+    "url": "https://github.com/jcarva/select_title/issues"
   },
-  "homepage": "https://github.com/jcarva/list_titles#readme",
+  "homepage": "https://github.com/jcarva/select_title#readme",
   "dependencies": {
     "antd": "^2.10.0",
     "axios": "^0.16.1",
