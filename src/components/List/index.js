@@ -27,7 +27,7 @@ class List extends React.Component {
         }
       ],
       filters: {},
-      selectedTitleIndex: null
+      details: null
     }
   }
   
@@ -88,24 +88,18 @@ class List extends React.Component {
   };
 
   onRowClick = (rowIdx, row) => {
-    console.log(rowIdx);
-    let rows = this.state.rows;
-    rows.map(row => {
-      row.isSelected = false;
-    });
-
-    rows[rowIdx].isSelected = true;
-    this.setState({
-      rows,
-      selectedTitleIndex: rowIdx
-    });
+    if(row){
+      this.setState({
+        details: row.body
+      });
+    }
   };
 
-  renderDetails = (index) => {
-    if(index !== null) {
+  renderDetails = (details) => {
+    if(details !== null) {
       return(
         <div id="details">
-          <h2>Details: {this.state.rows[this.state.selectedTitleIndex].body}</h2>
+          <h2>Details: {this.state.details}</h2>
         </div>
       )
     } else {
@@ -148,7 +142,7 @@ class List extends React.Component {
                }
             }}
           />
-          {this.renderDetails(this.state.selectedTitleIndex)}
+          {this.renderDetails(this.state.details)}
         </div>
       );
     }
