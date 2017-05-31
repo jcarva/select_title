@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDataGrid from 'react-data-grid';
+import Details from './Details'
 const { Toolbar, Data: { Selectors } } = require('react-data-grid-addons');
 
 //Require List style
@@ -43,7 +44,7 @@ class List extends React.Component {
 
     return row;
   };
-  
+
   // Return all rows
   getRows = () => Selectors.getRows(this.state);
 
@@ -136,7 +137,7 @@ class List extends React.Component {
                }
             }}
           />
-          <h1>{this.state.selectedTitleIndex}</h1>
+          <Details id={this.state.selectedTitleIndex}/>
         </div>
       );
     }
