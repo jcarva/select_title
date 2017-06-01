@@ -35,6 +35,9 @@ class NavigationBar extends React.Component {
           <Menu.Item key="noMatch">
             <NavLink to="/gag3ahlapndfns73">No Match</NavLink>
           </Menu.Item>
+          <Menu.Item key="author">
+            <p>Select Title ©2017 Created by <a href="https://github.com/jcarva">Jaelson Carvalho</a></p>
+          </Menu.Item>
         </Menu>
       </Header>
     );

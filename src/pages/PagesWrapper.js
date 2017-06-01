@@ -9,7 +9,6 @@ export default (props) => {
     <Layout className="layout">
       <NavigationBar/>
           {props.children}
-      <FooterBar/>
     </Layout>
   )
 };

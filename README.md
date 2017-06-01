@@ -13,7 +13,7 @@ Contact me on [Linkedin](https://www.linkedin.com/in/jaelson-carvalho-4b84a3a2),
 
 A simple project to fecthData from a api and show the informations as a sortable and filterable list.
 
-Actually hosted on: http://jaelsoncarvalho.com/select_title/
+Actually hosted on: http://www.select_title.jaelsoncarvalho.com/
 
 ---
 
