@@ -12,11 +12,7 @@ require('./style.sass');
 
 class Home extends Component {
 
-  componentWillMount (){
-    this.props.fetchData()
-  }
-
-  componentWillUpdate() {
+  componentWillMount () {
     this.props.fetchData()
   }
 

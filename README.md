@@ -11,7 +11,7 @@ Contact me on [Linkedin](https://www.linkedin.com/in/jaelson-carvalho-4b84a3a2),
 [![Test Coverage](https://codeclimate.com/github/jcarva/select_title/badges/coverage.svg)](https://codeclimate.com/github/jcarva/select_title/coverage)
 [![Issue Count](https://codeclimate.com/github/jcarva/select_title/badges/issue_count.svg)](https://codeclimate.com/github/jcarva/select_title)
 
-A simple project to fecthData from a api and show the informations as a sortable and filterable list.
+A simple project to fecth data from an api and show the informations as a sortable and filterable list.
 
 Actually hosted on: http://www.select_title.jaelsoncarvalho.com/
 
@@ -166,7 +166,7 @@ Using the above command we have by default the ```select_title_production``` ava
 
 [Doc Reference](https://www.docker.com/)
 ```
-Eliminate the "it works on my machine"Â problem once and for all. Package dependencies with your apps in Docker containers for portability and predictability during development, testing, and deployment.
+Eliminate the "it works on my machine" problem once and for all. Package dependencies with your apps in Docker containers for portability and predictability during development, testing, and deployment.
 ```
 ## Docker Auxiliary Commands
 
